@@ -1,0 +1,162 @@
+{
+  "personal_information": {
+    "full_name": "Timothy Kipchirchir Kanda",
+    "location": "Sydney, NSW, Australia",
+    "email": "tmthkanda@gmail.com",
+    "phone": "+61 435 426 947",
+    "github": "https://github.com/timkanda",
+    "linkedin": "https://www.linkedin.com/in/timothy-kanda-aaa190b4"
+  },
+  "professional_profile": {
+    "current_level": "Graduate / Junior Software Developer",
+    "target_roles": [
+      "Graduate Software Developer",
+      "Junior Software Developer",
+      "Full-Stack Developer",
+      "Backend-Focused Software Developer"
+    ],
+    "summary": "Graduate Software Developer with a Master of Information Technology (Software Development specialisation) and hands-on experience building full-stack, cloud-deployed applications. Experienced across the full SDLC, including data-intensive systems, automation, and AI-assisted workflows. Strong focus on clean architecture, reliability, and real-world impact."
+  },
+  "technical_skills": {
+    "frontend": [
+      "React",
+      "Next.js (App Router, SSR)",
+      "HTML5",
+      "CSS3",
+      "Tailwind CSS",
+      "shadcn/ui"
+    ],
+    "backend": [
+      "Node.js",
+      "TypeScript",
+      "REST APIs",
+      "Authentication (NextAuth.js, OAuth)",
+      "PHP (WordPress)"
+    ],
+    "databases": [
+      "PostgreSQL",
+      "MySQL",
+      "Prisma ORM"
+    ],
+    "cloud_devops": [
+      "AWS (EC2, S3, RDS, Amplify)",
+      "Vercel",
+      "CI/CD pipelines"
+    ],
+    "ai_automation": [
+      "OpenAI API",
+      "AWS Bedrock",
+      "CRON-based automation"
+    ],
+    "engineering_practices": [
+      "Object-Oriented Programming",
+      "Software Testing & Quality Assurance",
+      "Agile / Scrum",
+      "Git & GitHub workflows"
+    ]
+  },
+  "education": {
+    "degree": "Master of Information Technology",
+    "specialisation": "Software Development",
+    "institution": "Swinburne University of Technology",
+    "location": "Sydney, Australia",
+    "completion_date": "September 2025"
+  },
+  "professional_experience": [
+    {
+      "title": "Full Stack Developer Intern",
+      "organisation": "Employability Advantage × AusBiz Consulting",
+      "period": {
+        "start": "April 2025",
+        "end": "July 2025"
+      },
+      "key_responsibilities": [
+        "Developed full-stack features using Next.js, TypeScript, Prisma, and PostgreSQL",
+        "Implemented authentication and role-based access control",
+        "Built dashboards, reporting modules, and CSV data workflows",
+        "Integrated AI services for automation and matching logic",
+        "Worked in Agile sprints with industry mentors",
+        "Deployed applications using cloud platforms with CI/CD"
+      ]
+    },
+    {
+      "title": "Website Manager & Web Developer",
+      "organisation": "The Kenyan Diaspora Media",
+      "period": {
+        "start": "March 2022",
+        "end": "Present"
+      },
+      "key_responsibilities": [
+        "Maintained and extended a production WordPress website",
+        "Developed custom plugins and backend features",
+        "Implemented CMS workflows for non-technical users",
+        "Collaborated with design and marketing teams",
+        "Monitored performance and traffic growth"
+      ]
+    },
+    {
+      "title": "Web Developer Intern",
+      "organisation": "Kipdev WP Solutions",
+      "period": {
+        "start": "March 2022",
+        "end": "October 2022"
+      },
+      "key_responsibilities": [
+        "Worked across the full web development lifecycle",
+        "Implemented user registration and authentication",
+        "Integrated WordPress CMS solutions",
+        "Assisted with debugging and deployment"
+      ]
+    }
+  ],
+  "key_projects": [
+    {
+      "name": "AI Participation Management System",
+      "type": "Industry Project",
+      "description": "AI-driven platform for managing student participation and automating project allocation.",
+      "responsibilities": [
+        "Designed CSV enrolment import and matching workflow",
+        "Implemented deterministic and fuzzy matching with human-in-the-loop confirmation",
+        "Built dashboards and compliance reporting features",
+        "Designed append-only event and audit-safe workflows"
+      ],
+      "impact": {
+        "manual_work_reduction_hours_per_week": 20,
+        "admin_tasks_automated_percent": 90,
+        "allocation_satisfaction_improvement_percent": 85,
+        "system_uptime_percent": 99.9
+      }
+    }
+  ],
+  "training_certifications": [
+    {
+      "name": "10-Week Full Stack Developer Live Industry Internship",
+      "provider": "Employability Advantage × AusBiz Consulting",
+      "year": 2025
+    },
+    {
+      "name": "Full-Stack with AWS Cloud Bootcamp",
+      "provider": "AusBiz Consulting",
+      "year": 2024
+    },
+    {
+      "name": "Web Development Program Bootcamp",
+      "provider": "eMobilis Institute (Mastercard Foundation Scholarship)",
+      "year": 2022
+    }
+  ],
+  "interview_signal_summary": {
+    "strengths": [
+      "Strong problem-solving and system design thinking",
+      "Production-level awareness of data quality and auditability",
+      "Clear communication and reasoning",
+      "Good judgment in trade-offs and scalability decisions"
+    ],
+    "recommended_for": [
+      "Graduate Software Developer",
+      "Junior Software Engineer",
+      "Full-Stack Developer",
+      "Backend-Focused Junior Roles"
+    ]
+  }
+}
