@@ -1,61 +1,72 @@
-# Graduate Software Engineer - Sydney
+# Junior Software Developer
 
-## Company: Digital Ventures Australia
+## Company: Cloudcon
 
-## Location: Sydney, NSW (Hybrid)
+**Source**: Indeed.com.au - January 2026
 
-## About Us
+## Location: Abbotsford VIC (On-site with flexibility)
 
-Digital Ventures Australia is a leading technology consultancy working with enterprise clients across finance, healthcare, and government sectors. We're looking for fresh talent to join our graduate program.
+## Salary: From $70,000 AUD + super
 
-## The Role
+## About Cloudcon
 
-As a Graduate Software Engineer, you'll work alongside experienced engineers on client projects, gaining exposure to the full software development lifecycle.
+Cloudcon is a growing Australian technology company specializing in cloud-based business solutions. We pride ourselves on our innovative approach and collaborative culture where every team member contributes meaningfully to our products.
+
+## About the Role
+
+As a Junior Developer at Cloudcon, you won't be stuck in a corner writing boilerplate code. You'll be an integral part of our development team, working on real features that impact our customers. We believe in learning by doing and provide mentorship to help you grow.
 
 ## Key Responsibilities
 
-- Design, develop, and deploy software solutions
-- Work with cloud-native technologies (AWS/Azure)
-- Build APIs and microservices
-- Write unit and integration tests
-- Document technical specifications
-- Present solutions to clients
+- Feature Building: Developing and maintaining features for our core products
+- Bug Fixing: Investigating and resolving issues reported by customers
+- Code Reviews: Participating in peer reviews to learn best practices
+- Testing: Writing unit and integration tests for your code
+- Documentation: Maintaining technical documentation for features you build
+- Collaboration: Working closely with senior developers and product team
+- Learning: Continuously improving your skills through mentorship and training
 
-## Requirements
+## Essential Requirements
 
-- Recent graduate (within 2 years) with IT/Computer Science degree
-- Strong programming skills in at least one language (JavaScript, Python, Java, or C#)
-- Understanding of software design principles
-- Experience with databases
-- Excellent analytical and problem-solving abilities
-- Strong communication skills
-- Australian work rights
+- Degree or diploma in Computer Science, IT, or related field
+- Solid understanding of programming fundamentals
+- Experience with at least one programming language (Python, JavaScript, Java, or C#)
+- Basic understanding of web development (HTML, CSS, JavaScript)
+- Familiarity with Git version control
+- Strong problem-solving mindset
+- Eagerness to learn and grow
+- Good communication skills
+- Right to work in Australia
 
-## Preferred Qualifications
+## Nice to Have
 
-- Master's degree in IT or related field
-- Cloud platform experience (AWS preferred)
-- Experience with containerization (Docker, Kubernetes)
-- Knowledge of CI/CD pipelines
-- Full-stack development experience
+- Experience with Python or Django
+- Knowledge of React or Vue.js
+- Understanding of cloud platforms (AWS, Azure, GCP)
+- Familiarity with Docker containers
+- Personal projects or portfolio work
+- Internship or work experience in software development
 
-## Benefits
+## What We Offer
 
-- Structured graduate development program
-- Mentorship from senior engineers
-- Training and certification support
-- Competitive salary with annual reviews
-- CBD location with excellent transport links
+- Competitive salary with regular reviews
+- Structured mentorship program with senior developers
+- Modern office in Abbotsford with good public transport
+- Flexible working hours
+- Professional development budget
+- Regular team social events
+- Opportunity to work across different projects
 
 ---
 
-## Practice Interview Questions
+## Interview Preparation Questions
 
-Ask your digital twin to help you prepare for these:
+Use your digital twin MCP server to practice:
 
-1. "What made you choose software engineering as a career?"
-2. "Tell me about your Master's degree - what was your focus area?"
-3. "Describe your experience with cloud technologies."
-4. "How do you handle tight deadlines and pressure?"
-5. "Give an example of when you had to learn something quickly for a project."
-6. "What are your career goals for the next 3-5 years?"
+1. "Why did you choose a career in software development?"
+2. "Tell me about a project you've built from scratch."
+3. "What programming languages are you most comfortable with?"
+4. "How do you debug when something isn't working?"
+5. "Describe a time when you had to learn something new quickly."
+6. "What do you know about cloud computing?"
+7. "Where do you see yourself in 2-3 years?"

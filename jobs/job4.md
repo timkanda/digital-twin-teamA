@@ -1,58 +1,67 @@
-# Software Engineer - AI/ML Platform
+# Mainframe Software Junior Developer – Early Careers Analyst
 
-## Company: DataMind AI
+## Company: Accenture Australia
 
-## Location: Melbourne, VIC (Remote-first with optional office)
+**Source**: Indeed.com.au - January 2026
 
-## Salary: $100,000 - $130,000 AUD
+## Location: Melbourne VIC (Hybrid)
 
-## About DataMind AI
+## Salary: $65,000 - $80,000 AUD + super
 
-DataMind AI is building the next generation of enterprise AI solutions. Our platform enables businesses to deploy, monitor, and scale machine learning models with ease. We're backed by top-tier VCs and are experiencing rapid growth.
+## About Accenture
 
-## The Opportunity
+Accenture is a global professional services company with leading capabilities in digital, cloud and security. Combining unmatched experience and specialized skills across more than 40 industries, we offer Strategy and Consulting, Technology and Operations services.
 
-Join our core platform team to build tools that power AI/ML workflows for enterprise customers. You'll work at the intersection of software engineering and machine learning, creating infrastructure that scales to millions of predictions per day.
+## About the Role
 
-## What You'll Do
+Join our Early Careers program as a Junior Developer specializing in enterprise mainframe systems. You'll receive comprehensive training while working on critical systems for major Australian banks and government agencies. This role offers a unique pathway into high-demand enterprise technology skills.
 
-- Build Python and TypeScript services for ML model deployment
-- Develop APIs and SDKs for our AI platform
-- Create intuitive dashboards for model monitoring and analytics
-- Implement vector databases and RAG (Retrieval-Augmented Generation) systems
-- Optimize ML inference pipelines for performance
-- Collaborate with ML engineers on model integration
-- Contribute to technical architecture and design decisions
+## Key Responsibilities
 
-## Required Qualifications
+- Design, develop, test, and maintain COBOL-based applications in a z/OS environment
+- Write and optimize complex SQL queries for DB2 for z/OS
+- Support modernization initiatives for legacy systems
+- Participate in structured training and certification programs
+- Collaborate with experienced developers on enterprise projects
+- Follow coding standards and best practices
+- Participate in testing and quality assurance activities
+- Document technical specifications and procedures
 
-- Bachelor's degree in Computer Science or related field
-- 2+ years of software engineering experience
-- Strong Python programming skills
-- Experience with TypeScript/JavaScript and React
-- Understanding of RESTful APIs and distributed systems
-- Familiarity with Docker and cloud platforms (AWS/GCP)
-- Knowledge of SQL and NoSQL databases
-- Strong written and verbal communication skills
+## Essential Requirements
 
-## Preferred Qualifications
+- Recent graduate (within 2 years) with degree in Computer Science, IT, or related field
+- Strong logical thinking and problem-solving abilities
+- Interest in enterprise technology and large-scale systems
+- Willingness to learn mainframe technologies (COBOL, JCL, DB2)
+- Understanding of programming fundamentals
+- Good written and verbal communication skills
+- Ability to work in a team environment
+- Australian citizenship or permanent residency (for security clearance)
 
-- Experience with machine learning frameworks (PyTorch, TensorFlow)
-- Knowledge of vector databases (Pinecone, Upstash, Weaviate)
-- Understanding of LLMs and RAG architectures
-- Experience with Kubernetes and infrastructure as code
-- Background in data engineering or ML infrastructure
-- Contributions to AI/ML open-source projects
+## Desirable Skills
+
+- Any programming experience (Java, Python, C)
+- Understanding of databases and SQL
+- Knowledge of software development lifecycle
+- Interest in financial services or government sectors
+- Academic projects demonstrating coding skills
 
 ## What We Offer
 
-- Competitive salary and generous equity
-- Fully remote work with flexible hours
-- $3,000 annual learning and development budget
-- Latest hardware and home office setup allowance
-- Comprehensive health benefits
-- 4 weeks paid vacation + public holidays
-- Regular team retreats and conferences
+- Structured Early Careers program with mentorship
+- Comprehensive training in mainframe technologies
+- Clear career progression pathway
+- Competitive salary with annual reviews
+- Flexible working arrangements
+- Health insurance subsidy
+- Professional development funding
+- Global career opportunities
+
+## Additional Information
+
+- On-the-job training provided
+- On-call rotation after training period
+- Security clearance required (sponsored by Accenture)
 
 ---
 
@@ -60,11 +69,11 @@ Join our core platform team to build tools that power AI/ML workflows for enterp
 
 Use your digital twin MCP server to practice:
 
-1. "Describe your experience with Python and how you've used it in production systems."
-2. "Have you worked with any AI/ML technologies? Tell me about your experience."
-3. "How would you design a system to serve ML model predictions at scale?"
-4. "What do you know about vector databases and RAG systems?"
-5. "Tell me about a project where you had to optimize performance."
-6. "How do you approach learning complex new technical domains?"
-7. "What interests you about working at an AI/ML company?"
-8. "Describe a time when you had to balance technical debt with feature delivery."
+1. "Tell me about yourself and why you're interested in technology."
+2. "Why are you interested in enterprise systems and mainframes?"
+3. "Describe your experience with any programming languages."
+4. "How do you approach learning new and complex technologies?"
+5. "Tell me about a time you worked on a team project."
+6. "What do you know about Accenture and our work?"
+7. "Where do you see your career in 5 years?"
+8. "How do you handle pressure and tight deadlines?"

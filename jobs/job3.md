@@ -1,55 +1,65 @@
-# Full Stack Developer - Fintech Startup
+# Junior/Intermediate AI & Innovation Full Stack Engineer
 
-## Company: PayFlow Technologies
+## Company: DXC Technology
 
-## Location: Sydney, NSW (Hybrid - 2 days office)
+**Source**: Indeed.com.au - January 2026
 
-## Salary: $90,000 - $110,000 AUD + equity
+## Location: Melbourne VIC (Hybrid)
 
-## About Us
+## Salary: $80,000 - $100,000 AUD + super (based on experience)
 
-PayFlow Technologies is disrupting the payment processing industry with AI-powered fraud detection and real-time transaction analytics. We're a Series A funded startup looking for passionate developers to join our engineering team.
+## About DXC Technology
 
-## The Role
+DXC Technology helps global companies run their mission-critical systems and operations while modernizing IT, optimizing data architectures, and ensuring security and scalability across public, private, and hybrid clouds.
 
-We're seeking a Full Stack Developer who can work across our entire technology stack, from building intuitive frontend interfaces to designing scalable backend services. You'll be working directly with our CTO on critical payment infrastructure.
+## About the Role
+
+You will work across the entire technology stack, collaborating with UI/UX designers, architects, business owners and other developers and engineers to build innovative AI-powered solutions. This is an exciting opportunity to work at the intersection of AI and software engineering.
 
 ## Key Responsibilities
 
-- Build and maintain React/Next.js frontend applications
-- Develop Node.js/TypeScript backend services and APIs
-- Integrate with payment gateways and banking APIs
-- Implement real-time data processing pipelines
-- Write comprehensive tests and documentation
-- Participate in architectural decisions and code reviews
-- Mentor junior developers
+- Develop full-stack applications integrating AI/ML capabilities
+- Build responsive and intuitive user interfaces using React/Angular
+- Design and implement RESTful APIs and microservices
+- Integrate AI models and services into production applications
+- Work with cloud platforms (AWS, Azure) for deployment
+- Collaborate with data scientists on ML model deployment
+- Participate in Agile ceremonies and sprint planning
+- Write automated tests and maintain code quality
+- Document technical solutions and architecture decisions
 
-## Required Skills
+## Essential Requirements
 
-- 2+ years of experience with React and TypeScript
-- Strong proficiency in Node.js backend development
-- Experience with RESTful APIs and GraphQL
-- Knowledge of SQL databases (PostgreSQL preferred)
-- Understanding of cloud services (AWS or GCP)
-- Familiarity with containerization (Docker)
-- Excellent problem-solving and communication skills
+- Bachelor's degree in Computer Science, Software Engineering, or related field
+- 1-3 years of professional software development experience
+- Proficiency in Python and JavaScript/TypeScript
+- Experience with React, Angular, or Vue.js
+- Understanding of backend frameworks (Node.js, Django, FastAPI)
+- Knowledge of SQL and NoSQL databases
+- Familiarity with cloud platforms (AWS or Azure)
+- Understanding of RESTful API design
+- Strong communication and teamwork skills
+- Right to work in Australia
 
-## Nice to Have
+## Desirable Skills
 
-- Experience in fintech or payment processing
-- Knowledge of Python for data/ML projects
-- Familiarity with Kubernetes and microservices
-- Experience with real-time systems (WebSockets, streaming)
-- Contributions to open-source projects
+- Experience with AI/ML frameworks (TensorFlow, PyTorch)
+- Knowledge of LLMs and RAG systems
+- Understanding of vector databases
+- Experience with Docker and Kubernetes
+- CI/CD pipeline experience
+- Agile/Scrum methodology experience
+- Cloud certifications (AWS, Azure)
 
 ## Benefits
 
-- Competitive salary with equity package
-- Flexible remote work policy
-- Professional development budget ($2,000/year)
-- Health insurance and wellness programs
-- Modern MacBook Pro and equipment
-- Weekly team lunches and quarterly offsites
+- Competitive salary and performance bonuses
+- Comprehensive learning platform access
+- Career development and progression pathways
+- Flexible hybrid working model
+- Health and wellbeing programs
+- Employee assistance program
+- Global mobility opportunities
 
 ---
 
@@ -57,10 +67,11 @@ We're seeking a Full Stack Developer who can work across our entire technology s
 
 Use your digital twin MCP server to practice:
 
-1. "Walk me through a complex full-stack feature you've built end-to-end."
-2. "How would you approach building a real-time transaction monitoring dashboard?"
-3. "Describe your experience with payment integrations or financial systems."
-4. "How do you ensure code quality in a fast-paced startup environment?"
-5. "What's your approach to learning new technologies quickly?"
-6. "Tell me about a time you had to debug a critical production issue."
-7. "How do you handle technical debt while shipping new features?"
+1. "Tell me about your experience with full-stack development."
+2. "What do you know about AI/ML technologies?"
+3. "Describe a project where you worked with APIs."
+4. "How would you approach building an AI-powered feature?"
+5. "What's your experience with cloud platforms?"
+6. "Tell me about a challenging technical problem you solved."
+7. "How do you stay current with new technologies?"
+8. "What interests you about working with AI?"
