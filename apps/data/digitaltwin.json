@@ -1,0 +1,192 @@
+{
+  "personal": {
+    "name": "Timothy Kipchirchir Kanda",
+    "title": "Graduate Software Developer",
+    "location": "Sydney, NSW, Australia",
+    "email": "tmthkanda@gmail.com",
+    "phone": "+61 435 426 947",
+    "github": "https://github.com/timkanda",
+    "linkedin": "https://www.linkedin.com/in/timothy-kanda-aaa190b4",
+    "summary": "Graduate Software Developer with a Master of Information Technology (Software Development specialisation) and hands-on experience building full-stack, cloud-deployed applications.",
+    "elevator_pitch": "I'm a Graduate Software Developer with a Master's in IT from Swinburne University, specializing in full-stack development with Next.js, TypeScript, and PostgreSQL. I've built AI-powered enterprise applications that reduced manual work by 20 hours per week and automated 90% of admin tasks."
+  },
+  "salary_location": {
+    "location_preferences": ["Sydney CBD", "Remote", "Hybrid"],
+    "relocation_willing": false,
+    "remote_experience": "Experience with remote collaboration during internship and freelance projects",
+    "travel_availability": "Available for occasional travel within Australia",
+    "work_authorization": "Australian Work Rights"
+  },
+  "content_chunks": [
+    {
+      "id": "personal-intro",
+      "title": "Personal Introduction",
+      "type": "personal",
+      "content": "I am Timothy Kipchirchir Kanda, a Graduate Software Developer based in Sydney, NSW, Australia. I hold a Master of Information Technology with a Software Development specialisation from Swinburne University of Technology. I'm passionate about building full-stack, cloud-deployed applications with a focus on clean architecture, reliability, and real-world impact.",
+      "metadata": {
+        "category": "introduction",
+        "tags": ["personal", "introduction", "background"]
+      }
+    },
+    {
+      "id": "professional-summary",
+      "title": "Professional Summary",
+      "type": "summary",
+      "content": "Graduate Software Developer with a Master of Information Technology (Software Development specialisation) and hands-on experience building full-stack, cloud-deployed applications. Experienced across the full SDLC, including data-intensive systems, automation, and AI-assisted workflows. Strong focus on clean architecture, reliability, and real-world impact. I'm seeking roles as a Graduate Software Developer, Junior Software Developer, Full-Stack Developer, or Backend-Focused Software Developer.",
+      "metadata": {
+        "category": "summary",
+        "tags": ["professional", "summary", "career"]
+      }
+    },
+    {
+      "id": "education",
+      "title": "Education Background",
+      "type": "education",
+      "content": "I completed my Master of Information Technology with a Software Development specialisation from Swinburne University of Technology in Sydney, Australia in September 2025. My coursework covered software engineering principles, database systems, cloud computing, and agile methodologies.",
+      "metadata": {
+        "category": "education",
+        "tags": ["education", "university", "masters", "IT"]
+      }
+    },
+    {
+      "id": "skills-frontend",
+      "title": "Frontend Development Skills",
+      "type": "skills",
+      "content": "My frontend development skills include React, Next.js (App Router, SSR), HTML5, CSS3, Tailwind CSS, and shadcn/ui. I build responsive, accessible, and performant user interfaces with modern React patterns and component libraries.",
+      "metadata": {
+        "category": "technical_skills",
+        "tags": ["frontend", "react", "nextjs", "tailwind", "skills"]
+      }
+    },
+    {
+      "id": "skills-backend",
+      "title": "Backend Development Skills",
+      "type": "skills",
+      "content": "My backend development skills include Node.js, TypeScript, REST APIs, Authentication (NextAuth.js, OAuth), and PHP (WordPress). I build secure, scalable server-side applications with proper authentication and authorization patterns.",
+      "metadata": {
+        "category": "technical_skills",
+        "tags": ["backend", "nodejs", "typescript", "api", "skills"]
+      }
+    },
+    {
+      "id": "skills-database",
+      "title": "Database Skills",
+      "type": "skills",
+      "content": "I have experience with PostgreSQL, MySQL, and Prisma ORM for database management. I design normalized database schemas, write efficient queries, and use ORMs for type-safe database interactions.",
+      "metadata": {
+        "category": "technical_skills",
+        "tags": ["database", "postgresql", "mysql", "prisma", "skills"]
+      }
+    },
+    {
+      "id": "skills-cloud",
+      "title": "Cloud & DevOps Skills",
+      "type": "skills",
+      "content": "My cloud and DevOps experience includes AWS (EC2, S3, RDS, Amplify), Vercel deployment, and CI/CD pipelines. I deploy applications to production with automated testing and continuous deployment workflows.",
+      "metadata": {
+        "category": "technical_skills",
+        "tags": ["cloud", "aws", "vercel", "devops", "cicd", "skills"]
+      }
+    },
+    {
+      "id": "skills-ai",
+      "title": "AI & Automation Skills",
+      "type": "skills",
+      "content": "I have experience integrating AI services including OpenAI API, AWS Bedrock, and building CRON-based automation systems. I've built AI-assisted workflows for matching, recommendations, and automated processing.",
+      "metadata": {
+        "category": "technical_skills",
+        "tags": ["ai", "automation", "openai", "skills"]
+      }
+    },
+    {
+      "id": "experience-ausbiz",
+      "title": "Full Stack Developer Internship at Employability Advantage × AusBiz Consulting",
+      "type": "experience",
+      "content": "From April 2025 to July 2025, I worked as a Full Stack Developer Intern at Employability Advantage × AusBiz Consulting. I developed full-stack features using Next.js, TypeScript, Prisma, and PostgreSQL. I implemented authentication and role-based access control using NextAuth.js. I built dashboards, reporting modules, and CSV data workflows. I integrated AI services for automation and matching logic. I worked in Agile sprints with industry mentors and deployed applications using cloud platforms with CI/CD pipelines.",
+      "metadata": {
+        "category": "work_experience",
+        "tags": ["internship", "fullstack", "nextjs", "experience"]
+      }
+    },
+    {
+      "id": "experience-kenyan-diaspora",
+      "title": "Website Manager & Web Developer at The Kenyan Diaspora Media",
+      "type": "experience",
+      "content": "From March 2022 to Present, I work as Website Manager & Web Developer at The Kenyan Diaspora Media. I maintain and extend a production WordPress website serving the Kenyan diaspora community. I develop custom plugins and backend features to enhance functionality. I implement CMS workflows for non-technical users and collaborate with design and marketing teams. I monitor performance and traffic growth to optimize user experience.",
+      "metadata": {
+        "category": "work_experience",
+        "tags": ["wordpress", "webdev", "media", "experience"]
+      }
+    },
+    {
+      "id": "experience-kipdev",
+      "title": "Web Developer Intern at Kipdev WP Solutions",
+      "type": "experience",
+      "content": "From March 2022 to October 2022, I worked as a Web Developer Intern at Kipdev WP Solutions. I worked across the full web development lifecycle from requirements to deployment. I implemented user registration and authentication systems. I integrated WordPress CMS solutions for various client projects and assisted with debugging and deployment.",
+      "metadata": {
+        "category": "work_experience",
+        "tags": ["internship", "wordpress", "webdev", "experience"]
+      }
+    },
+    {
+      "id": "project-ai-participation",
+      "title": "AI Participation Management System Project",
+      "type": "project",
+      "content": "I built an AI-driven platform for managing student participation and automating project allocation. I designed CSV enrolment import and matching workflow with deterministic and fuzzy matching with human-in-the-loop confirmation. I built dashboards and compliance reporting features with append-only event and audit-safe workflows. The impact was significant: reduced manual work by 20 hours per week, automated 90% of admin tasks, improved allocation satisfaction by 85%, and achieved 99.9% system uptime.",
+      "metadata": {
+        "category": "projects",
+        "tags": ["project", "ai", "enterprise", "impact"]
+      }
+    },
+    {
+      "id": "project-digital-twin",
+      "title": "Digital Twin Portfolio Project",
+      "type": "project",
+      "content": "I am building an AI-powered professional portfolio with RAG (Retrieval-Augmented Generation) architecture using Upstash Vector for semantic search. This enables recruiters to ask natural language questions and receive personalized, metric-rich responses about my experience and skills. The system uses the MCP (Model Context Protocol) server pattern for Claude Desktop integration.",
+      "metadata": {
+        "category": "projects",
+        "tags": ["project", "ai", "rag", "portfolio"]
+      }
+    },
+    {
+      "id": "certifications",
+      "title": "Training and Certifications",
+      "type": "certification",
+      "content": "I completed a 10-Week Full Stack Developer Live Industry Internship with Employability Advantage × AusBiz Consulting in 2025. I also completed the Full-Stack with AWS Cloud Bootcamp from AusBiz Consulting in 2024, and the Web Development Program Bootcamp from eMobilis Institute (Mastercard Foundation Scholarship) in 2022.",
+      "metadata": {
+        "category": "certifications",
+        "tags": ["training", "certification", "bootcamp"]
+      }
+    },
+    {
+      "id": "strengths",
+      "title": "Key Strengths",
+      "type": "strengths",
+      "content": "My key strengths include strong problem-solving and system design thinking, production-level awareness of data quality and auditability, clear communication and reasoning, and good judgment in trade-offs and scalability decisions. I'm recommended for Graduate Software Developer, Junior Software Engineer, Full-Stack Developer, and Backend-Focused Junior Roles.",
+      "metadata": {
+        "category": "strengths",
+        "tags": ["strengths", "skills", "soft-skills"]
+      }
+    },
+    {
+      "id": "career-goals",
+      "title": "Career Goals",
+      "type": "goals",
+      "content": "My short-term goal is to secure a Graduate Software Developer or Junior Full-Stack Developer role where I can contribute to production systems and grow my skills. Long-term, I aim to become a Senior Software Engineer or Technical Lead, focusing on building scalable, AI-enhanced applications. I'm particularly interested in fintech, enterprise SaaS, and AI/ML companies.",
+      "metadata": {
+        "category": "career",
+        "tags": ["goals", "career", "aspirations"]
+      }
+    },
+    {
+      "id": "why-hire-me",
+      "title": "Why You Should Hire Me",
+      "type": "interview",
+      "content": "You should hire me because I bring a unique combination of formal education (Master's in IT) and practical industry experience (full-stack internship). I've already delivered production-level systems that reduced manual work by 20 hours per week and automated 90% of admin tasks. I'm proficient in the modern tech stack (Next.js, TypeScript, PostgreSQL, AWS) and have experience with AI integration. I'm a quick learner, strong communicator, and passionate about building reliable, user-focused applications.",
+      "metadata": {
+        "category": "interview",
+        "tags": ["interview", "hire", "value-proposition"]
+      }
+    }
+  ]
+}
