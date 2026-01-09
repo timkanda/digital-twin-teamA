@@ -1,0 +1,9 @@
+{
+  "servers": {
+    "timothy-digital-twin": {
+      "type": "http",
+      "url": "http://localhost:3000/api/mcp",
+      "description": "Timothy Kanda's Digital Twin - Ask questions about his professional background, skills, and experience"
+    }
+  }
+}
