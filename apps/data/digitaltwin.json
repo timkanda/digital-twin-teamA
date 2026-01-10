@@ -169,6 +169,76 @@
       "type": "interview",
       "content": "Why hire Timothy: Combines Master's degree education with production experience. Delivered 20 hours/week efficiency gain at internship. Modern tech stack (Next.js, TypeScript, PostgreSQL, AWS). AI integration experience. Quick learner, clear communicator.",
       "metadata": { "tags": ["interview", "hire"] }
+    },
+    {
+      "id": "star-teamwork",
+      "title": "STAR Example: Teamwork and Collaboration",
+      "type": "experience",
+      "content": "STAR Example - Teamwork: SITUATION: During AusBiz internship, worked with 5 interns and 3 industry mentors on AI Participation System. Different skill levels and time zones created coordination challenges. TASK: Ensure smooth collaboration and consistent code quality across team. ACTION: Set up daily standups, created shared coding standards document, implemented PR review process, used GitHub Projects for task tracking, pair-programmed with junior members. RESULT: Team delivered project 1 week ahead of schedule, all members passed code review standards, 100% of assigned features completed.",
+      "metadata": { "tags": ["experience", "star", "teamwork", "collaboration"] }
+    },
+    {
+      "id": "star-learning",
+      "title": "STAR Example: Learning New Technology Quickly",
+      "type": "experience",
+      "content": "STAR Example - Learning Agility: SITUATION: AusBiz project required Prisma ORM which I had never used before. Deadline was 2 weeks away. TASK: Learn Prisma ORM and implement database layer for AI matching system. ACTION: Completed Prisma documentation in 3 days, built practice project, then implemented production schema with 15 tables and complex relations. Asked mentors for code review, iterated based on feedback. RESULT: Fully functional database layer in 10 days, schema passed architecture review, reusable patterns adopted by other team members.",
+      "metadata": { "tags": ["experience", "star", "learning", "adaptability"] }
+    },
+    {
+      "id": "star-deadline",
+      "title": "STAR Example: Meeting Tight Deadlines",
+      "type": "experience",
+      "content": "STAR Example - Deadline Pressure: SITUATION: Client demo scheduled in 3 days, but CSV import feature had critical bug causing data corruption. TASK: Fix bug and ensure data integrity before demo. ACTION: Debugged systematically using logging and test data, identified race condition in async processing, implemented transaction-based import with rollback on failure, added validation layer. Worked extended hours, kept team updated on progress. RESULT: Bug fixed in 2 days, demo successful, client approved next phase, no data corruption incidents after fix.",
+      "metadata": { "tags": ["experience", "star", "deadline", "pressure"] }
+    },
+    {
+      "id": "star-conflict",
+      "title": "STAR Example: Handling Disagreement",
+      "type": "experience",
+      "content": "STAR Example - Conflict Resolution: SITUATION: Team disagreed on authentication approach - some wanted NextAuth.js, others preferred custom JWT solution. TASK: Reach consensus and implement secure authentication. ACTION: Facilitated discussion, listed pros/cons of each approach, researched security implications, proposed NextAuth.js for faster development with option to customize later. Documented decision rationale for future reference. RESULT: Team agreed on NextAuth.js, implemented in 4 days, authentication passed security review, decision document became team best practice.",
+      "metadata": { "tags": ["experience", "star", "conflict", "communication"] }
+    },
+    {
+      "id": "star-feedback",
+      "title": "STAR Example: Receiving and Acting on Feedback",
+      "type": "experience",
+      "content": "STAR Example - Feedback: SITUATION: Code review feedback indicated my API routes were not following REST conventions and lacked proper error handling. TASK: Improve code quality and learn best practices. ACTION: Studied REST API design patterns, refactored all 12 API routes with proper HTTP status codes, consistent response formats, and comprehensive error handling. Asked for follow-up review, documented patterns for team. RESULT: Subsequent code reviews had 80% fewer comments, API patterns adopted as team standard, mentor recommended me for backend-focused tasks.",
+      "metadata": { "tags": ["experience", "star", "feedback", "growth"] }
+    },
+    {
+      "id": "star-initiative",
+      "title": "STAR Example: Taking Initiative",
+      "type": "experience",
+      "content": "STAR Example - Initiative: SITUATION: Noticed manual testing was taking 2+ hours per deployment, slowing team velocity. TASK: Improve testing efficiency without disrupting current workflow. ACTION: Proposed automated testing to mentor, received approval, set up Jest and React Testing Library, wrote 45 unit tests for critical components, integrated with GitHub Actions CI/CD. Trained team on writing tests. RESULT: Testing time reduced from 2 hours to 15 minutes, caught 3 bugs before production, team adopted testing culture.",
+      "metadata": { "tags": ["experience", "star", "initiative", "automation"] }
+    },
+    {
+      "id": "star-failure",
+      "title": "STAR Example: Learning from Failure",
+      "type": "experience",
+      "content": "STAR Example - Failure Recovery: SITUATION: Deployed database migration that accidentally deleted test data in staging environment. Team lost 2 days of test scenarios. TASK: Recover data and prevent future incidents. ACTION: Immediately notified team and mentor, restored from backup (partial recovery), manually recreated lost test data, implemented migration checklist with backup verification, added staging environment protection. RESULT: Full recovery within 24 hours, new migration process prevented similar incidents, became team's migration safety advocate.",
+      "metadata": { "tags": ["experience", "star", "failure", "learning"] }
+    },
+    {
+      "id": "star-ai-integration",
+      "title": "STAR Example: AI Integration Challenge",
+      "type": "experience",
+      "content": "STAR Example - AI Integration: SITUATION: AI matching algorithm needed to handle 500+ student allocations with 95% accuracy requirement. OpenAI API latency was causing timeouts. TASK: Optimize AI integration for production scale and reliability. ACTION: Implemented batch processing with queue system, added caching for repeated queries, created fallback to deterministic matching when AI unavailable, added retry logic with exponential backoff. Used AWS SQS for queue management. RESULT: Achieved 98% accuracy, handled 1000+ allocations in production, zero timeouts after optimization, 99.9% uptime.",
+      "metadata": { "tags": ["experience", "star", "ai", "optimization"] }
+    },
+    {
+      "id": "interview-star-knowledge",
+      "title": "STAR Interview Method Knowledge",
+      "type": "interview",
+      "content": "I use the STAR interview method to structure behavioral answers: SITUATION (context and background), TASK (my specific responsibility), ACTION (steps I took with detail on HOW), RESULT (quantifiable outcomes and learnings). This framework ensures my answers are specific, demonstrate my contributions, and show measurable impact. I prepare STAR examples for common themes: problem-solving, teamwork, learning, deadlines, conflicts, feedback, initiative, and failures.",
+      "metadata": { "tags": ["interview", "star", "method"] }
+    },
+    {
+      "id": "weakness-mitigation",
+      "title": "Weakness and Mitigation",
+      "type": "interview",
+      "content": "Weakness: Limited production experience in large-scale distributed systems. Mitigation: Completed Cloud Computing course covering AWS scalability, studied system design patterns, building Digital Twin project with vector databases and MCP protocol. Actively learning through projects and seeking mentorship. Weakness: No direct DevOps/Kubernetes experience. Mitigation: Completed AWS Bootcamp, set up CI/CD pipelines, planning to pursue AWS certification.",
+      "metadata": { "tags": ["interview", "weakness", "growth"] }
     }
   ]
 }
