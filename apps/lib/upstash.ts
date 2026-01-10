@@ -81,3 +81,15 @@ export async function getVectorInfo() {
     throw error;
   }
 }
+
+// Reset vector database (delete all vectors)
+export async function resetVectorDatabase() {
+  try {
+    await vectorIndex.reset();
+    console.log("Vector database reset successfully");
+    return { success: true };
+  } catch (error) {
+    console.error("Error resetting vector database:", error);
+    throw error;
+  }
+}

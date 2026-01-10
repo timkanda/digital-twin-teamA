@@ -1,6 +1,6 @@
 "use server";
 
-import { queryVectors, upsertVectors, getVectorInfo, VectorMetadata } from "@/lib/upstash";
+import { queryVectors, upsertVectors, getVectorInfo, resetVectorDatabase, VectorMetadata } from "@/lib/upstash";
 import { generateInterviewResponse } from "@/lib/groq";
 import digitaltwinData from "@/data/digitaltwin.json";
 
@@ -132,6 +132,48 @@ export async function getDatabaseStatus() {
     return {
       success: false,
       error: error instanceof Error ? error.message : "Unknown error",
+    };
+  }
+}
+
+// Force re-initialize database (delete all and re-upload)
+export async function forceReinitializeDatabase() {
+  try {
+    console.log("Resetting vector database...");
+    await resetVectorDatabase();
+    
+    // Wait a moment for reset to complete
+    await new Promise(resolve => setTimeout(resolve, 1000));
+    
+    // Now re-initialize with fresh data
+    const contentChunks = digitaltwinData.content_chunks as ContentChunk[];
+
+    const vectors = contentChunks.map((chunk) => ({
+      id: chunk.id,
+      data: `${chunk.title}: ${chunk.content}`,
+      metadata: {
+        title: chunk.title,
+        type: chunk.type,
+        content: chunk.content,
+        category: chunk.metadata?.category || "",
+        tags: chunk.metadata?.tags || [],
+      } as VectorMetadata,
+    }));
+
+    await upsertVectors(vectors);
+    console.log(`Successfully re-uploaded ${vectors.length} content chunks!`);
+
+    return {
+      success: true,
+      message: `Reset and re-initialized database with ${vectors.length} vectors`,
+      vectorCount: vectors.length,
+    };
+  } catch (error) {
+    console.error("Error re-initializing vector database:", error);
+    return {
+      success: false,
+      message: `Error: ${error instanceof Error ? error.message : "Unknown error"}`,
+      vectorCount: 0,
     };
   }
 }
