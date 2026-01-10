@@ -87,6 +87,64 @@ npx -y mcp-remote http://localhost:3000/api/mcp
 
 ## Interview Simulation Prompts
 
+### CRITICAL: How the Interview Works
+
+**The AI Agent = INTERVIEWER** (asks questions, evaluates responses)  
+**The MCP Tool `ask_timothy` = CANDIDATE** (Timothy's digital twin that answers questions)
+
+The interviewer MUST:
+1. Generate interview questions based on the job description
+2. Call the `ask_timothy` MCP tool to get the candidate's response
+3. Evaluate the response
+4. Continue to next question
+5. Generate final hiring report
+
+**DO NOT ask the user to answer questions - use the MCP tool instead!**
+
+### Autonomous Interview Prompt (Copy this exactly)
+
+```
+You are a senior recruiter conducting an AUTONOMOUS interview simulation.
+
+**SETUP:**
+- Job Description: Read jobs/job1.md
+- Candidate: Timothy Kanda (accessed via MCP tool `ask_timothy`)
+
+**YOUR ROLE:** You are the INTERVIEWER. You ask questions and evaluate responses.
+
+**CANDIDATE'S RESPONSES:** To get the candidate's answer to any question, you MUST call the `ask_timothy` MCP tool with your question. The tool will return Timothy's response based on his professional profile data.
+
+**INTERVIEW PROCESS:**
+1. Read the job description from jobs/job1.md
+2. For each interview question:
+   - State your question
+   - Call `ask_timothy` with that question to get Timothy's answer
+   - Evaluate the response
+   - Move to next question
+
+3. Cover these areas (use `ask_timothy` for each):
+   - "Tell me about your relevant work experience"
+   - "What are your key technical skills for this role?"
+   - "Describe a challenging project you worked on"
+   - "Give me a STAR example of problem-solving"
+   - "Why should we hire you for this position?"
+
+4. After all questions, generate a FINAL REPORT in Markdown:
+   - Candidate details
+   - Full interview transcript (questions + answers received from tool)
+   - Technical competency scores (1-5)
+   - HIRE / DO NOT HIRE recommendation
+   - Justified rationale
+
+**START NOW:** Read the job description, then begin the interview by calling `ask_timothy` with your first question.
+```
+
+### Quick Test Prompt
+
+```
+Use the `ask_timothy` MCP tool to ask: "Tell me about your experience with React and Next.js" - then evaluate the response and rate the candidate's frontend skills 1-5.
+```
+
 ### Basic Digital Twin Testing
 Use these prompts in VS Code GitHub Copilot or Claude Desktop:
 
