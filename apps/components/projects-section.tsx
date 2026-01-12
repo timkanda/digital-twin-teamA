@@ -73,74 +73,51 @@ export function ProjectsSection() {
         </h2>
 
         {/* Featured Projects */}
-        <div className="space-y-24 mb-24">
-          {featuredProjects.map((project, index) => (
+        <div className="grid md:grid-cols-2 gap-6 mb-24">
+          {featuredProjects.map((project) => (
             <div
               key={project.title}
-              className={`relative grid md:grid-cols-12 items-center gap-4 ${index % 2 === 1 ? "md:text-right" : ""}`}
+              className="bg-card p-6 rounded-lg border border-border hover:-translate-y-2 transition-transform duration-300 flex flex-col"
             >
-              {/* Project Image */}
-              <div
-                className={`md:col-span-7 relative rounded overflow-hidden ${index % 2 === 1 ? "md:col-start-6" : ""}`}
-              >
-                <div className="aspect-video bg-card border border-border rounded-lg flex items-center justify-center">
-                  <div className="text-center p-8">
-                    <svg className="w-16 h-16 text-primary mx-auto mb-4" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
-                    </svg>
-                    <p className="text-muted-foreground font-mono text-sm">Industry Project</p>
-                  </div>
-                </div>
-              </div>
-
-              {/* Project Info */}
-              <div
-                className={`md:col-span-6 md:absolute md:top-1/2 md:-translate-y-1/2 ${index % 2 === 1 ? "md:left-0 md:text-left" : "md:right-0 md:text-right"} z-10`}
-              >
-                <p className="text-primary font-mono text-sm mb-2">Featured Project</p>
-                <h3 className="text-2xl font-bold text-foreground mb-4">
-                  {project.live ? (
-                    <a href={project.live} target="_blank" rel="noopener noreferrer" className="hover:text-primary">
-                      {project.title}
-                    </a>
-                  ) : (
-                    project.title
-                  )}
-                </h3>
-                <div className="bg-card p-6 rounded shadow-lg mb-4 border border-border">
-                  <p className="text-muted-foreground leading-relaxed">{project.description}</p>
-                </div>
-                <ul
-                  className={`flex flex-wrap gap-3 font-mono text-sm text-muted-foreground mb-4 ${index % 2 === 1 ? "" : "md:justify-end"}`}
-                >
-                  {project.tech.map((tech) => (
-                    <li key={tech} className="bg-secondary px-2 py-1 rounded">{tech}</li>
-                  ))}
-                </ul>
-                <div className={`flex gap-4 ${index % 2 === 1 ? "" : "md:justify-end"}`}>
-                  {project.github && (
-                    <a
-                      href={project.github}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-foreground hover:text-primary transition-colors"
-                      aria-label="GitHub"
-                    >
-                      <Github className="w-5 h-5" />
-                    </a>
-                  )}
-                  {project.live && (
-                    <a
-                      href={project.live}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-foreground hover:text-primary transition-colors"
-                      aria-label="Live Demo"
-                    >
-                      <ExternalLink className="w-5 h-5" />
-                    </a>
-                  )}
-                </div>
+              <p className="text-primary font-mono text-sm mb-2">Featured Project</p>
+              <h3 className="text-xl font-bold text-foreground mb-3">
+                {project.live ? (
+                  <a href={project.live} target="_blank" rel="noopener noreferrer" className="hover:text-primary">
+                    {project.title}
+                  </a>
+                ) : (
+                  project.title
+                )}
+              </h3>
+              <p className="text-muted-foreground leading-relaxed mb-4 flex-1">{project.description}</p>
+              <ul className="flex flex-wrap gap-2 font-mono text-sm text-muted-foreground mb-4">
+                {project.tech.map((tech) => (
+                  <li key={tech} className="bg-secondary px-2 py-1 rounded">{tech}</li>
+                ))}
+              </ul>
+              <div className="flex gap-4">
+                {project.github && (
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-foreground hover:text-primary transition-colors"
+                    aria-label="GitHub"
+                  >
+                    <Github className="w-5 h-5" />
+                  </a>
+                )}
+                {project.live && (
+                  <a
+                    href={project.live}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-foreground hover:text-primary transition-colors"
+                    aria-label="Live Demo"
+                  >
+                    <ExternalLink className="w-5 h-5" />
+                  </a>
+                )}
               </div>
             </div>
           ))}
