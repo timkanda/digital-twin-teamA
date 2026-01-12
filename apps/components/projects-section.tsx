@@ -1,22 +1,6 @@
-import { Github, ExternalLink, Zap, Users, Clock, CheckCircle } from "lucide-react"
+import { Github, ExternalLink } from "lucide-react"
 
 const featuredProjects = [
-  {
-    title: "AI Participation Management System",
-    description:
-      "AI-driven enterprise platform for managing student participation and automating project allocation. Features deterministic and fuzzy matching with human-in-the-loop confirmation, dashboards, and compliance reporting.",
-    image: null,
-    tech: ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "OpenAI API"],
-    github: "https://github.com/timkanda",
-    live: null,
-    featured: true,
-    metrics: [
-      { icon: Clock, value: "20hrs/week", label: "Manual work reduced" },
-      { icon: Zap, value: "90%", label: "Admin tasks automated" },
-      { icon: Users, value: "85%", label: "Allocation satisfaction" },
-      { icon: CheckCircle, value: "99.9%", label: "System uptime" },
-    ],
-  },
   {
     title: "Digital Twin Portfolio",
     description:
