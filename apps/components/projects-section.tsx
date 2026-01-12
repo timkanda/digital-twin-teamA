@@ -79,34 +79,18 @@ export function ProjectsSection() {
               key={project.title}
               className={`relative grid md:grid-cols-12 items-center gap-4 ${index % 2 === 1 ? "md:text-right" : ""}`}
             >
-              {/* Project Image / Metrics */}
+              {/* Project Image */}
               <div
                 className={`md:col-span-7 relative rounded overflow-hidden ${index % 2 === 1 ? "md:col-start-6" : ""}`}
               >
-                {project.metrics ? (
-                  <div className="bg-card border border-border p-6 rounded-lg">
-                    <div className="grid grid-cols-2 gap-4">
-                      {project.metrics.map((metric, i) => (
-                        <div key={i} className="flex items-center gap-3 p-4 bg-background rounded-lg">
-                          <metric.icon className="w-8 h-8 text-primary" />
-                          <div>
-                            <p className="text-2xl font-bold text-foreground">{metric.value}</p>
-                            <p className="text-xs text-muted-foreground">{metric.label}</p>
-                          </div>
-                        </div>
-                      ))}
-                    </div>
+                <div className="aspect-video bg-card border border-border rounded-lg flex items-center justify-center">
+                  <div className="text-center p-8">
+                    <svg className="w-16 h-16 text-primary mx-auto mb-4" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                    </svg>
+                    <p className="text-muted-foreground font-mono text-sm">Industry Project</p>
                   </div>
-                ) : (
-                  <div className="aspect-video bg-card border border-border rounded-lg flex items-center justify-center">
-                    <div className="text-center p-8">
-                      <svg className="w-16 h-16 text-primary mx-auto mb-4" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
-                      </svg>
-                      <p className="text-muted-foreground font-mono text-sm">Industry Project</p>
-                    </div>
-                  </div>
-                )}
+                </div>
               </div>
 
               {/* Project Info */}
