@@ -25,5 +25,5 @@ AWS | Azure | OCI
 
 ## Connect
 
-LinkedIn: ...
-Portfolio: ...
+LinkedIn: https://www.linkedin.com/in/timothy-kanda-aaa190b4/
+X: https://x.com/KandaTimm
