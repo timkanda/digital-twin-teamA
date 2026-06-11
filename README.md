@@ -1,93 +1,29 @@
-# Timothy Kanda - Digital Twin MCP Server
+# Hi, I'm Timothy Kanda 👋
 
-AI-powered professional assistant using RAG (Retrieval-Augmented Generation) architecture. Ask questions about Timothy's professional background, skills, and experience.
+Master of Information Technology Graduate
 
-## 🚀 Live Demo
+Software Engineer interested in:
+- Full-Stack Development
+- Cloud Computing
+- AI & Machine Learning
 
-- **Portfolio**: [https://digital-twin-team-a.vercel.app](https://digital-twin-team-a.vercel.app)
-- **MCP Endpoint**: [https://digital-twin-team-a.vercel.app/api/mcp](https://digital-twin-team-a.vercel.app/api/mcp)
+## Tech Stack
 
-## 🛠️ Tech Stack
+React | Next.js | TypeScript
+C# | .NET | SQL
+AWS | Azure | OCI
 
-- **Framework**: Next.js 16 (App Router)
-- **Language**: TypeScript
-- **Vector Database**: Upstash Vector
-- **LLM**: Groq (LLaMA)
-- **Protocol**: MCP (Model Context Protocol)
-- **Styling**: Tailwind CSS, shadcn/ui
-- **Deployment**: Vercel
+## Featured Projects
 
-## 📁 Project Structure
+🚀 Digital Twin RAG Project
 
-```
-digital-twin-teamA/
-├── apps/                    # Next.js MCP Server
-│   ├── app/
-│   │   ├── actions/        # Server actions for RAG
-│   │   └── api/
-│   │       ├── mcp/        # MCP JSON-RPC endpoint
-│   │       ├── init/       # Vector DB initialization
-│   │       └── test/       # RAG query testing
-│   ├── lib/
-│   │   ├── upstash.ts      # Vector database client
-│   │   └── groq.ts         # LLM client
-│   └── data/
-│       └── digitaltwin.json # Professional profile data
-├── jobs/                    # Job postings for interview prep
-├── interview/               # Interview simulation results
-├── docs/                    # Documentation
-│   ├── prd.md              # Product Requirements
-│   ├── design.md           # Technical Design
-│   └── implementation-plan.md
-└── agents.md               # Copilot instructions
-```
+📊 Client Default Prediction ML Model
 
-## 🔧 MCP Tools Available
+📝 Task Management App
 
-| Tool | Description |
-|------|-------------|
-| `ask_timothy` | Ask questions about Timothy's professional background |
-| `get_profile_summary` | Get a summary of Timothy's profile |
-| `initialize_database` | Initialize/reset the vector database |
+☁️ Cloud Photo Album Application
 
-## 🏃 Local Development
+## Connect
 
-```bash
-cd apps
-pnpm install
-pnpm dev
-```
-
-## 🔌 Connect to MCP Server
-
-### VS Code (GitHub Copilot)
-Add to `.vscode/mcp.json`:
-```json
-{
-  "servers": {
-    "timothy-digital-twin": {
-      "type": "http",
-      "url": "https://digital-twin-team-a.vercel.app/api/mcp"
-    }
-  }
-}
-```
-
-### Claude Desktop
-```bash
-npx -y mcp-remote https://digital-twin-team-a.vercel.app/api/mcp
-```
-
-## 👥 Team
-
-- Timothy Kanda
-- Yutong  
-- Pranjal
-- Callum (Mentor)
-
-## 📊 Project Status
-
-✅ Week 1: Infrastructure & Setup  
-✅ Week 2: RAG Implementation  
-✅ Week 3: Interview Simulations  
-✅ Week 4: Production Deployment
+LinkedIn: ...
+Portfolio: ...
